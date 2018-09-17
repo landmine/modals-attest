@@ -1,0 +1,1632 @@
+{
+  "type": "attest-result",
+  "name": "modals",
+  "id": "PearsonUXModals-No Success Modal",
+  "endTime": "2018-09-17T16:12:02-0700",
+  "platform": {},
+  "testSubject": {
+    "fileName": "http://localhost:8081/example.html"
+  },
+  "findings": {
+    "inapplicable": [
+      {
+        "description": "Ensures every accesskey attribute value is unique",
+        "help": "accesskey attribute value must be unique",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/accesskeys?application=webdriverjs",
+        "id": "accesskeys",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "wcag2a",
+          "wcag211",
+          "cat.keyboard"
+        ]
+      },
+      {
+        "description": "Ensures <area> elements of image maps have alternate text",
+        "help": "Active <area> elements must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/area-alt?application=webdriverjs",
+        "id": "area-alt",
+        "impact": null,
+        "mapping": {
+          "SC": "1.1.1",
+          "description": "Missing text equivalent for area.",
+          "ruleId": "010109-A",
+          "weight": 3
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+        "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-dpub-role-fallback?application=webdriverjs",
+        "id": "aria-dpub-role-fallback",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <audio> elements have captions",
+        "help": "<audio> elements must have a captions track",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/audio-caption?application=webdriverjs",
+        "id": "audio-caption",
+        "impact": null,
+        "mapping": {
+          "SC": "1.2.2",
+          "description": "Checks the use of all <audio> element to ensure that the element contains a <caption> element",
+          "ruleId": "010402-D",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.time-and-media",
+          "wcag2a",
+          "wcag121",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures <blink> elements are not used",
+        "help": "<blink> elements are deprecated and must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/blink?application=webdriverjs",
+        "id": "blink",
+        "impact": null,
+        "mapping": {
+          "SC": "2.2.2",
+          "description": "Checks to make sure that the <blink> tag is never used",
+          "ruleId": "070201-A",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.time-and-media",
+          "wcag2a",
+          "wcag222",
+          "section508",
+          "section508.22.j"
+        ]
+      },
+      {
+        "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+        "help": "Page must have means to bypass repeated blocks",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/bypass?application=webdriverjs",
+        "id": "bypass",
+        "impact": null,
+        "mapping": {
+          "SC": "2.4.1",
+          "description": "There is no mechanism to bypass navigation links.",
+          "ruleId": "N130601-A",
+          "weight": 3
+        },
+        "nodes": [],
+        "tags": [
+          "cat.keyboard",
+          "wcag2a",
+          "wcag241",
+          "section508",
+          "section508.22.o"
+        ]
+      },
+      {
+        "description": "Ensures <dl> elements are structured correctly",
+        "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/definition-list?application=webdriverjs",
+        "id": "definition-list",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Ensures that all <dl> elements are structured correctly",
+          "ruleId": "SC411VAL",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+        "help": "<dt> and <dd> elements must be contained by a <dl>",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/dlitem?application=webdriverjs",
+        "id": "dlitem",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Ensures that all <dd> and <dt> elements have a <dl> as a parent",
+          "ruleId": "SC411VAL",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+        "help": "Frames must have title attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/frame-title?application=webdriverjs",
+        "id": "frame-title",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.2",
+          "description": "Ensure that all iframe and frame elements contain a unique and non-empty title attribute",
+          "ruleId": "120101-A",
+          "weight": 2
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "section508",
+          "section508.22.i"
+        ]
+      },
+      {
+        "description": "Ensures <input type=\"image\"> elements have alternate text",
+        "help": "Image buttons must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/input-image-alt?application=webdriverjs",
+        "id": "input-image-alt",
+        "impact": null,
+        "mapping": {
+          "SC": "1.1.1",
+          "description": "Ensures that every <input> that represents an image button has an accessible name",
+          "ruleId": "010103-A",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures every form element has a label",
+        "help": "Form elements must have labels",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/label?application=webdriverjs",
+        "id": "label",
+        "impact": null,
+        "mapping": {
+          "SC": "1.3.1",
+          "description": "Ensures that every input element that requires a label, has an appropriate label",
+          "ruleId": "120401-E",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag332",
+          "wcag131",
+          "section508",
+          "section508.22.n"
+        ]
+      },
+      {
+        "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
+        "help": "Layout tables must not use data table elements",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/layout-table?application=webdriverjs",
+        "id": "layout-table",
+        "impact": null,
+        "mapping": {
+          "SC": "1.3.1",
+          "description": "Ensures that <table> elements that are being used for layout do not contain markup only relevant for data tables",
+          "ruleId": "050401-A",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.semantics",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures links have discernible text",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/link-name?application=webdriverjs",
+        "id": "link-name",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.2",
+          "description": "Ensures that every link has an accessible name",
+          "ruleId": "SC412LNKN",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag111",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures that lists are structured correctly",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/list?application=webdriverjs",
+        "id": "list",
+        "impact": null,
+        "mapping": {
+          "SC": "1.3.1",
+          "description": "Ensures that lists are structured correctly",
+          "ruleId": "030601-C",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <li> elements are used semantically",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/listitem?application=webdriverjs",
+        "id": "listitem",
+        "impact": null,
+        "mapping": {
+          "SC": "1.3.1",
+          "description": "Ensures that every list item is used semantically",
+          "ruleId": "030601-A",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures <marquee> elements are not used",
+        "help": "<marquee> elements are deprecated and must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/marquee?application=webdriverjs",
+        "id": "marquee",
+        "impact": null,
+        "mapping": {
+          "SC": "2.2.2",
+          "description": "Ensures that the deprecated <marquee> tag is not used",
+          "ruleId": "070301-A",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag222"
+        ]
+      },
+      {
+        "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+        "help": "Timed refresh must not exist",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/meta-refresh?application=webdriverjs",
+        "id": "meta-refresh",
+        "impact": null,
+        "mapping": {
+          "SC": "2.2.4",
+          "description": "Ensures that <meta> refresh is not used",
+          "ruleId": "070401-A",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.time",
+          "wcag2a",
+          "wcag2aaa",
+          "wcag221",
+          "wcag224",
+          "wcag325"
+        ]
+      },
+      {
+        "description": "Ensures <object> elements have alternate text",
+        "help": "<object> elements must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/object-alt?application=webdriverjs",
+        "id": "object-alt",
+        "impact": null,
+        "mapping": {
+          "SC": "1.1.1",
+          "description": "Ensures that every <object> element has a text alternative",
+          "ruleId": "010105-A",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures that server-side image maps are not used",
+        "help": "Server-side image maps must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/server-side-image-map?application=webdriverjs",
+        "id": "server-side-image-map",
+        "impact": null,
+        "mapping": {
+          "SC": "2.1.1",
+          "description": "Ensures that server-side image maps are never used",
+          "ruleId": "090101-A",
+          "weight": 0
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag211",
+          "section508",
+          "section508.22.f"
+        ]
+      },
+      {
+        "description": "Ensure that each cell in a table using the headers refers to another cell in that table",
+        "help": "All cells in a table element that use the headers attribute must only refer to other cells of that same table",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/td-headers-attr?application=webdriverjs",
+        "id": "td-headers-attr",
+        "impact": null,
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g"
+        ]
+      },
+      {
+        "description": "Ensure that each table header in a data table refers to data cells",
+        "help": "All th elements and elements with role=columnheader/rowheader must have data cells they describe",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/th-has-data-cells?application=webdriverjs",
+        "id": "th-has-data-cells",
+        "impact": null,
+        "mapping": {},
+        "nodes": [],
+        "tags": [
+          "cat.tables",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g"
+        ]
+      },
+      {
+        "description": "Ensures lang attributes have valid values",
+        "help": "lang attribute must have a valid value",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/valid-lang?application=webdriverjs",
+        "id": "valid-lang",
+        "impact": null,
+        "mapping": {
+          "SC": "3.1.2",
+          "description": "Ensures that when the 'lang' attribute is used, it has a valid value",
+          "ruleId": "040101-B",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.language",
+          "wcag2aa",
+          "wcag312"
+        ]
+      },
+      {
+        "description": "Ensures <video> elements have captions",
+        "help": "<video> elements must have captions",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/video-caption?application=webdriverjs",
+        "id": "video-caption",
+        "impact": null,
+        "mapping": {
+          "SC": "1.2.2",
+          "description": "Ensures that the HTML5 <video> tag is captioned",
+          "ruleId": "010402-D",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag122",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures <video> elements have audio descriptions",
+        "help": "<video> elements must have an audio description track",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/video-description?application=webdriverjs",
+        "id": "video-description",
+        "impact": null,
+        "mapping": {
+          "SC": "1.2.5",
+          "description": "Ensures that every <video> tag has an audio description",
+          "ruleId": "010301-Q1",
+          "weight": 1
+        },
+        "nodes": [],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2aa",
+          "wcag125",
+          "section508",
+          "section508.22.b"
+        ]
+      }
+    ],
+    "incomplete": [],
+    "passes": [
+      {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "help": "Elements must only use allowed ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-allowed-attr?application=webdriverjs",
+        "id": "aria-allowed-attr",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all attributes that start with 'aria-' to ensure that they are all official WAI-ARIA attributes",
+          "ruleId": "ARIA_ATTRIBUTE_VALID",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-allowed-attr",
+                "impact": "critical",
+                "message": "ARIA attributes are used correctly for the defined role",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-allowed-attr",
+                "impact": "critical",
+                "message": "ARIA attributes are used correctly for the defined role",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"closeButton\" class=\"pe-btn close modal-close\" aria-label=\"Close Dialog\" data-event=\"cancel\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#closeButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures aria-hidden='true' is not present on the document body.",
+        "help": "aria-hidden='true' must not be present on the document body",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-hidden-body?application=webdriverjs",
+        "id": "aria-hidden-body",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-hidden-body",
+                "impact": "critical",
+                "message": "No aria-hidden attribute is present on document body",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<body>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "body"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+        "help": "Required ARIA attributes must be provided",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-required-attr?application=webdriverjs",
+        "id": "aria-required-attr",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain WAI-ARIA roles to ensure that all required aria- attributes are present",
+          "ruleId": "ARIA_ROLE_REQUIRED_ATTRIBUTES",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-attr",
+                "impact": "critical",
+                "message": "All required ARIA attributes are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures elements with an ARIA role that require child roles contain them",
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-required-children?application=webdriverjs",
+        "id": "aria-required-children",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain a WAI-ARIA role to ensure that all required children roles are present",
+          "ruleId": "ARIA_ROLE_REQUIRED_CHILDREN",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-children",
+                "impact": "critical",
+                "message": "Required ARIA children are present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+        "help": "Certain ARIA roles must be contained by particular parents",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-required-parent?application=webdriverjs",
+        "id": "aria-required-parent",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain a WAI-ARIA role to ensure that all required parent roles are present",
+          "ruleId": "ARIA_ROLE_REQUIRED_PARENTS",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-required-parent",
+                "impact": "critical",
+                "message": "Required ARIA parent role present",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      },
+      {
+        "description": "Ensures all elements with a role attribute use a valid value",
+        "help": "ARIA roles used must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-roles?application=webdriverjs",
+        "id": "aria-roles",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain the WAI-ARIA role attribute to ensure that the role value is valid",
+          "ruleId": "ARIA_ROLE_VALID",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "invalidrole",
+                "impact": "critical",
+                "message": "ARIA role is valid",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "abstractrole",
+                "impact": "serious",
+                "message": "Abstract roles are not used",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures all ARIA attributes have valid values",
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-valid-attr-value?application=webdriverjs",
+        "id": "aria-valid-attr-value",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain WAI-ARIA atributes to ensure that the values of the attributes are valid",
+          "ruleId": "ARIA_ATTRIBUTE_VALUES",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [
+              {
+                "data": null,
+                "id": "aria-valid-attr-value",
+                "impact": "critical",
+                "message": "ARIA attribute values are valid",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "aria-errormessage",
+                "impact": "critical",
+                "message": "Uses a supported aria-errormessage technique",
+                "relatedNodes": []
+              }
+            ],
+            "any": [],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          },
+          {
+            "all": [
+              {
+                "data": null,
+                "id": "aria-valid-attr-value",
+                "impact": "critical",
+                "message": "ARIA attribute values are valid",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "aria-errormessage",
+                "impact": "critical",
+                "message": "Uses a supported aria-errormessage technique",
+                "relatedNodes": []
+              }
+            ],
+            "any": [],
+            "html": "<button id=\"closeButton\" class=\"pe-btn close modal-close\" aria-label=\"Close Dialog\" data-event=\"cancel\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#closeButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "wcag411",
+          "wcag412"
+        ]
+      },
+      {
+        "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+        "help": "ARIA attributes must conform to valid names",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/aria-valid-attr?application=webdriverjs",
+        "id": "aria-valid-attr",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Checks all elements that contain WAI-ARIA attributes to ensure that the attributes are valid attributes",
+          "ruleId": "ARIA_ATTRIBUTE_VALID",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-valid-attr",
+                "impact": "critical",
+                "message": "ARIA attribute name are valid",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated slideInDown\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#modal"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "aria-valid-attr",
+                "impact": "critical",
+                "message": "ARIA attribute name are valid",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"closeButton\" class=\"pe-btn close modal-close\" aria-label=\"Close Dialog\" data-event=\"cancel\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#closeButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag411"
+        ]
+      },
+      {
+        "description": "Ensures buttons have discernible text",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/button-name?application=webdriverjs",
+        "id": "button-name",
+        "impact": null,
+        "mapping": {
+          "SC": "1.1.1",
+          "description": "Checks all <button> elements to ensure that they have a discernable accessible name",
+          "ruleId": "SC412BTN",
+          "weight": 3
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "Leave me alone.",
+                "id": "button-has-visible-text",
+                "impact": "critical",
+                "message": "Element has inner text that is visible to screen readers",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"cancelButton\" class=\"modal-cancel pe-btn pe-btn--btn_large\" data-event=\"cancel\">Leave me alone.</button>",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#cancelButton"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "Close Dialog",
+                "id": "button-has-visible-text",
+                "impact": "critical",
+                "message": "Element has inner text that is visible to screen readers",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "aria-label",
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"closeButton\" class=\"pe-btn close modal-close\" aria-label=\"Close Dialog\" data-event=\"cancel\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "focusable-no-name",
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#closeButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a"
+        ]
+      },
+      {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/color-contrast?application=webdriverjs",
+        "id": "color-contrast",
+        "impact": null,
+        "mapping": {
+          "SC": "1.4.3",
+          "description": "Checks all elements to ensure that the contrast between the foreground and the background meets the WCAG 2 AA contrast ratio thresholds.",
+          "ruleId": "020201-A",
+          "weight": 2
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#dddddd",
+                  "contrastRatio": 15.46,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#000000",
+                  "fontSize": "10.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.46",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal\" class=\"pe-btn pe-btn--btn_large\">Open Modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#dddddd",
+                  "contrastRatio": 15.46,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#000000",
+                  "fontSize": "10.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.46",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal-two\" class=\"pe-btn pe-btn--btn_large\">Open no cancel modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal-two"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#dddddd",
+                  "contrastRatio": 15.46,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#000000",
+                  "fontSize": "10.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.46",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal-four\" class=\"pe-btn pe-btn--btn_large\">Open elements modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal-four"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "expectedContrastRatio": "3:1",
+                  "fgColor": "#000000",
+                  "fontSize": "18.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2 id=\"dialogHeading\" class=\"pe-title\">Basic Title</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#dialogHeading"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#000000",
+                  "fontSize": "12.0pt",
+                  "fontWeight": "normal"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<p>I like New York in June. How about you?</p>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "pearson-modal[triggerid=\"trigger-modal-three\"] > p"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": {
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 7.37,
+                  "expectedContrastRatio": "4.5:1",
+                  "fgColor": "#505759",
+                  "fontSize": "10.5pt",
+                  "fontWeight": "bold"
+                },
+                "id": "color-contrast",
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 7.37",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"cancelButton\" class=\"modal-cancel pe-btn pe-btn--btn_large\" data-event=\"cancel\">Leave me alone.</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "#cancelButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      },
+      {
+        "description": "Ensures each HTML document contains a non-empty <title> element",
+        "help": "Documents must have <title> element to aid in navigation",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/document-title?application=webdriverjs",
+        "id": "document-title",
+        "impact": null,
+        "mapping": {
+          "SC": "2.4.2",
+          "description": "Supply a valid title element for this document that is non-empty and useful.",
+          "ruleId": "130201-C",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "doc-has-title",
+                "impact": "serious",
+                "message": "Document has a non-empty <title> element",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html class=\"\" lang=\"EN\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag242"
+        ]
+      },
+      {
+        "description": "Ensures every id attribute value is unique",
+        "help": "id attribute value must be unique",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/duplicate-id?application=webdriverjs",
+        "id": "duplicate-id",
+        "impact": null,
+        "mapping": {
+          "SC": "4.1.1",
+          "description": "Ensures that each element on the page with an ID attribute has a unique ID attribute value",
+          "ruleId": "SC411NID",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "main",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<main id=\"main\" aria-hidden=\"true\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#main"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "trigger-modal",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal\" class=\"pe-btn pe-btn--btn_large\">Open Modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "trigger-modal-two",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal-two\" class=\"pe-btn pe-btn--btn_large\">Open no cancel modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal-two"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "trigger-modal-three",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal-three\" class=\"pe-btn pe-btn--btn_large\" disabled=\"true\">Open no success modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal-three"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "trigger-modal-four",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"trigger-modal-four\" class=\"pe-btn pe-btn--btn_large\">Open elements modal</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              "#trigger-modal-four"
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "modalOverlay",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"modal-close animated hidden\" id=\"modalOverlay\" data-event=\"cancel\"></div>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#modalOverlay"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "modal",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"pe-modal-container animated hidden\" id=\"modal\" role=\"dialog\" aria-labelledby=\"dialogHeading\" aria-describedby=\"dialogDescription\" aria-modal=\"true\" style=\"top: 50px; transform: translate(-50%); margin-bottom: 50px;\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#modal"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "dialogHeading",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<h2 id=\"dialogHeading\" class=\"pe-title\">Basic Title</h2>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#dialogHeading"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "dialogDescription",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<div class=\"modal-body\" id=\"dialogDescription\">\n\t\t\t\t<slot></slot>\n\t\t\t</div>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#dialogDescription"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "successButton",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"successButton\" class=\"modal-success pe-btn pe-btn__primary--btn_large\" data-event=\"success\">Success</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#successButton"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "cancelButton",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"cancelButton\" class=\"modal-cancel pe-btn pe-btn--btn_large\" data-event=\"cancel\">Cancel</button>",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#cancelButton"
+              ]
+            ]
+          },
+          {
+            "all": [],
+            "any": [
+              {
+                "data": "closeButton",
+                "id": "duplicate-id",
+                "impact": "moderate",
+                "message": "Document has no elements that share the same id attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<button id=\"closeButton\" class=\"pe-btn close modal-close\" aria-label=\"Close Dialog\" data-event=\"cancel\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal\"]",
+                "#closeButton"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      },
+      {
+        "description": "Ensures every HTML document has a lang attribute",
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/html-has-lang?application=webdriverjs",
+        "id": "html-has-lang",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-lang",
+                "impact": "serious",
+                "message": "The <html> element has a lang attribute",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<html class=\"\" lang=\"EN\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311"
+        ]
+      },
+      {
+        "description": "Ensures the lang attribute of the <html> element has a valid value",
+        "help": "<html> element must have a valid value for the lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/html-lang-valid?application=webdriverjs",
+        "id": "html-lang-valid",
+        "impact": null,
+        "nodes": [
+          {
+            "all": [],
+            "any": [],
+            "html": "<html class=\"\" lang=\"EN\">",
+            "impact": null,
+            "none": [
+              {
+                "data": null,
+                "id": "valid-lang",
+                "impact": "serious",
+                "message": "Value of lang attribute is included in the list of valid languages",
+                "relatedNodes": []
+              }
+            ],
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311"
+        ]
+      },
+      {
+        "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/meta-viewport?application=webdriverjs",
+        "id": "meta-viewport",
+        "impact": null,
+        "mapping": {},
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "meta-viewport",
+                "impact": "critical",
+                "message": "<meta> tag does not disable zooming on mobile devices",
+                "relatedNodes": []
+              }
+            ],
+            "html": "<meta name=\"viewport\" content=\"width=device-width\">",
+            "impact": null,
+            "none": [],
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144"
+        ]
+      }
+    ],
+    "timestamp": "2018-09-17T23:11:54.821Z",
+    "url": "http://localhost:8081/example.html",
+    "violations": [
+      {
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "help": "Images must have alternate text",
+        "helpUrl": "https://dequeuniversity.com/rules/worldspace/3.0/image-alt?application=webdriverjs",
+        "id": "image-alt",
+        "impact": "critical",
+        "mapping": {
+          "SC": "1.1.1",
+          "description": "Ensures that every <img> element has an alternative text or is marked as presentational",
+          "ruleId": "IMG_NO_ALT",
+          "weight": 0
+        },
+        "nodes": [
+          {
+            "all": [],
+            "any": [
+              {
+                "data": null,
+                "id": "has-alt",
+                "impact": "critical",
+                "message": "Element does not have an alt attribute",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "aria-label",
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "aria-labelledby",
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "non-empty-title",
+                "impact": "serious",
+                "message": "Element has no title attribute or the title attribute is empty",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "role-presentation",
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                "relatedNodes": []
+              },
+              {
+                "data": null,
+                "id": "role-none",
+                "impact": "minor",
+                "message": "Element's default semantics were not overridden with role=\"none\"",
+                "relatedNodes": []
+              }
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "html": "<img src=\"data:image/svg+xml,&#9;%3Csvg version = '1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13.4092,11.9999 L17.7082,7.7009 C18.0972,7.3119 18.0972,6.6809 17.7082,6.2919 C17.3192,5.9029 16.6882,5.9029 16.2992,6.2919 L12.0002,10.5909 L7.7012,6.2919 C7.3122,5.9029 6.6812,5.9029 6.2922,6.2919 C5.9022,6.6809 5.9022,7.3119 6.2922,7.7009 L10.5912,11.9999 L6.2922,16.2989 C5.9022,16.6879 5.9022,17.3189 6.2922,17.7079 C6.4862,17.9029 6.7412,17.9999 6.9962,17.9999 C7.2512,17.9999 7.5062,17.9029 7.7012,17.7079 L12.0002,13.4089 L16.2992,17.7079 C16.4932,17.9029 16.7482,17.9999 17.0032,17.9999 C17.2582,17.9999 17.5132,17.9029 17.7082,17.7079 C18.0972,17.3189 18.0972,16.6879 17.7082,16.2989 L13.4092,11.9999 Z'/%3E%3C/svg%3E&#10;&#9;&#9;&#9;&#9;\">",
+            "impact": "critical",
+            "none": [],
+            "target": [
+              [
+                "pearson-modal[triggerid=\"trigger-modal-three\"]",
+                "img"
+              ]
+            ]
+          }
+        ],
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a"
+        ]
+      }
+    ],
+    "title": "No Success Modal"
+  }
+}

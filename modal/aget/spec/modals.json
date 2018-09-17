@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Pearson UX Modals",
+      "id": "modals",
+      "pageList": [
+        {
+          "name": "Pearson UX Modals",
+          "url": "http://localhost:8081/example.html",
+          "actions": [
+            "analyze with title \"Initial State\"",
+            "click element \"#trigger-modal\"",
+            "wait for 3s",
+            "analyze with title \"Modal\"",
+            "press \"escape\" on \"body\"",
+            "click element \"#trigger-modal-two\"",
+            "wait for 3s",
+            "analyze with title \"No Cancel Modal\"",
+            "press \"escape\" on \"body\"",
+            "click element \"#trigger-modal-three\"",
+            "wait for 3s",
+            "analyze with title \"No Success Modal\"",
+            "press \"escape\" on \"body\"",
+            "click element \"#trigger-modal-four\"",
+            "wait for 3s",
+            "analyze with title \"Elements Modal\""
+          ]
+        }      
+      ]
+    }
+  ]
+}
