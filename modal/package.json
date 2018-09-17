@@ -6,7 +6,8 @@
   "description": "Modal web component",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "rm -rf ./a11y-results && mocha test --timeout 60000",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,12 @@
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sourcemaps": "^2.6.4",
+    "selenium-webdriver": "^3.6.0",
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0",
+    "attest-node": "^2.2.0",
+    "attest-webdriverjs": "^2.3.0",
+    "http-server": "^0.11.1"
   }
 }
