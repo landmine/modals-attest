@@ -20,16 +20,18 @@
 	</head>
 	<body>
 	<!-- for accessibility, content before the modal must be wrapped with an element and provided an id of main -->
-	<main id="main">
-			<section class="container">
-				<button id="trigger-modal" class="pe-btn pe-btn--btn_large">Open Modal</button>
-			</section>
-			<section class="container">
-				<button id="trigger-modal-two" class="pe-btn pe-btn--btn_large">Open no cancel modal</button>
-			</section>
-			<section class="container">
-				<button id="trigger-modal-three" class="pe-btn pe-btn--btn_large">Open no success modal</button>
-			</section>
+	<main id="main">		
+		<!-- remove the h1 to break the a11y test -->
+		<h1>Pearson UX - Modal</h1>	
+		<section class="container">
+			<button id="trigger-modal" class="pe-btn pe-btn--btn_large">Open Modal</button>
+		</section>
+		<section class="container">
+			<button id="trigger-modal-two" class="pe-btn pe-btn--btn_large">Open no cancel modal</button>
+		</section>
+		<section class="container">
+			<button id="trigger-modal-three" class="pe-btn pe-btn--btn_large">Open no success modal</button>
+		</section>
 		<section class="container">
 			<button id="trigger-modal-four" class="pe-btn pe-btn--btn_large">Open elements modal</button>
 		</section>
